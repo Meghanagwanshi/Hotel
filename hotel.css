@@ -1,0 +1,556 @@
+@media only screen and (min-width:1100px) and (max-width:2400px){
+    .navbar-nav{
+        padding-left: 35%;
+        
+    }
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.nav-item{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+
+.icons{
+   
+    position: fixed;
+    top: 150px;
+    right: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'oswald',sans-serif;
+    margin: 6px;
+    border-radius: 10px  0px  0px 10px;
+    transform: translate(150px,0px);
+    transition: all 0.5s;
+   
+}
+.icons a:hover{
+    transform: translate(0px,0px);
+}
+
+.icons a i{
+    margin: 5px;
+    margin-right: 15px;
+}
+.n1{
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+
+}
+.n2{
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+}
+
+
+#s1{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+
+
+.s1c1{
+    text-align: left;
+    
+    
+}
+
+
+
+
+#s2{
+    background-color: #f5f0e9;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+.s4c1{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.s2c1{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+
+}
+
+.s2c2{
+    font-size: 11px;
+    background-color: #8f887e;
+    border-radius: 0px 0px 0px 0px;
+    color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.s2c3{
+    font-size: 14px;
+    color: #282828;
+}
+.s2c4{
+    font-size: 14px;
+    color: #707070;
+}
+.card-body{
+    text-align: center;
+}
+.zoom img{
+    transition: all 1.2s ease;
+}
+.zoom:hover img{
+    transform: scale(1.5);
+    opacity: 0.5;
+    
+}
+.zoom{
+    overflow: hidden;
+}
+#s3{
+    border-bottom: 1px solid #707070;
+}
+.s3c1{
+    width: 100%;
+    height: auto;
+}
+
+.s5c1{
+    width: 100%;
+    height: auto;
+}
+.s5r2{
+    background-color: #f5f0e9;
+    text-align: center;
+
+}
+.s5r2c1{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #282828;
+    margin: 0px;
+}
+.s5r2c2{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #707070;
+    padding: 5%;
+}
+.s5r4c2{
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    
+}
+.spanc1{
+    font-size: 28px;
+    padding-right: 20px;
+}
+.s5r4c1{
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+#s6{
+    background-color: #f5f0e9;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 70px;
+
+}
+.s6r1{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.s6r1c1{
+    color: #c0812a;
+    font-size: 35px;
+}
+.s6r1c2{
+    color: #817b71;
+    font-size: 14px;
+}
+.s6r2c1{
+    font-size: 14px;
+    color: #282828;
+}
+.s6r2c2{
+    font-size: 13px;
+    color: #707070;
+}
+.s6r2c3{
+    font-size: 12px;
+    color: #c0812a;
+}
+.s6r2c4{
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+.offercocktail{
+    margin-bottom: 10px;
+}
+
+#s9{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.s9c1{
+    font-size: 13px;
+    color: #707070;
+}
+.s9c2{
+    font-size: 13px;
+    color: #282828;
+    font-family: "montserrat", sans-serif;
+}
+#s10{
+    background-image: url(assets_hotel/hotel76.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#s101{
+    background-image: url(assets_hotel/hotel76.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+
+
+.s10c2{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'open-sans',sans-serif;
+}
+.s10c3{
+    color: #c0812a;
+    font-size: 24px;
+    font-family: 'open-sans',sans-serif;
+}
+.s10c4{
+    color:#707070;
+    font-size: 14px;
+    font-family: 'open-sans',sans-serif;
+}
+#s11{
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.s11c1{
+    font-size: 28px;
+    color: #282828;
+}
+.s11c2{
+    font-size: 14px;
+    color: #707070;
+}
+.s7c1{
+    background-color: #c0812a;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.s7c2{
+    background-image: url(assets_hotel/hotel77.jpg);
+}
+#s8{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.s8c1{
+    font-size: 14px;
+    color: #282828;
+}
+.s8c2{
+    font-size: 14px;
+    color: #707070;
+}
+.s8i{
+    font-size: 35px;
+    color: #c0812a;
+    padding-bottom: 15px;
+}
+footer{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #707070;
+    background: #ffffff;
+}
+ul#footerli li{
+    display: inline ;
+    padding: 7px;
+}
+.s5Aimg{
+    background-image: url(assets_hotel/hotel68.jpg) ;
+    background-size: cover;
+}
+   
+
+@media only screen and (max-width:576px){
+    .s5r3c1{
+       padding-left: 50%;
+    }
+    .s5r3c2{
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .offerimg{
+        width: 100%;
+        height: auto;
+    }
+    .detail{
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #ffffff;
+        width: auto;
+        height: 100%;
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+    .offerrow{
+        margin-bottom: 25px;
+    }
+    .s8c3{
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .offerimg{
+        width: 110%;
+        height: 100%;
+    } 
+    .offerrow{
+        margin-bottom: 20px;
+    }
+    .detail{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .s8c3{
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:2400px)
+{
+    .s101c1{
+        width: 32%;
+        background-color: #000000cc;
+        text-align: center;
+        margin-left: 1%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .s1c1{
+        padding-top: 10%;
+    }
+    .offerimg{
+        width: 111%;
+        height: 100%;
+    }
+    .detail{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #ffffff;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .offerrow{
+        margin-bottom: 25px;
+    }
+    .footeri{
+        justify-content: center;
+        padding-left: 20%;
+    }
+    .footerpadi{
+        padding: 3px;
+    }
+}
+@media only screen and (min-width:100px) and (max-width:992px){
+    .s101c1{
+        background-color: #000000cc;
+        text-align: center;
+        width: 90%;
+        margin: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footerpadi{
+        padding-right: 10%;
+    }
+}
+@media only screen and (min-width:769px) /*and (max-width:1025px)*/{
+    .c4{
+        width: 100%;
+        height: auto;
+    }
+    .c1{
+        font-size: 14px;
+        color: #848484;
+        font-family: sans-serif;
+    
+    }
+    .c2{
+        font-size: 35px;
+        font-weight: 200;
+        color: #c0812a;
+        font-family: sans-serif;
+    }
+    .c3{
+        font-size: 14px;
+        color: #707070;
+        font-family: sans-serif;
+    }
+    .s5r3c1{
+        padding-left: 30%;
+    }
+    .s6r1{
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .s6r2c5{
+        width: 110%;
+        height: 100%;
+    }
+    
+
+}
+@media only screen and (min-width:425px) and (max-width:769px){
+    .c4{
+        width: 100%;
+        height: auto;
+    }
+    .c1{
+        font-size: 14px;
+        color: #848484;
+        font-family: sans-serif;
+    }
+    .c2{
+        font-size: 25px;
+        color: #c0812a;
+        font-family: sans-serif;
+    }
+    .c3{
+        font-size: 14px;
+        color: #707070;
+        font-family: sans-serif;
+    }
+    .card{
+        margin-top: 50px;
+    }
+    .s3c1{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .s5r3c1{
+        padding-left: 17%;
+    }
+    .s6r1{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .s6r1c1{
+        font-size: 25px;
+    }
+    .s6r2c5{
+        width: 100%;
+        height: 100%;
+    }
+    .s6r2c4{
+        width: 96%;
+        height: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+}
+@media only screen and (min-width:100px) and (max-width:425px){
+    .c4{
+        width:100%;
+        height: auto;
+    }
+    .c1{
+        font-size: 14px;
+        color: #848484;
+        font-family: sans-serif;
+    }
+    .c2{
+        font-size: 21px;
+        color: #c0812a;
+        font-family: sans-serif;
+    }
+    .c3{
+        font-size: 14px;
+        color: #707070;
+        font-family: sans-serif;
+    }
+    .card{
+        margin-top: 35px;
+    }
+    .s3c1{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        
+    }
+    .s5r3c1{
+        padding-left: 30%;
+    }
+    .s5r3c2{
+        text-align: center;
+    }
+}
+    
